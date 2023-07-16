@@ -1,0 +1,24 @@
+{
+  "title": "Easy to use, hassle-free experience",
+
+  "step_one": {
+    "title": "Download Dim3ak",
+    "description": "Enter your phone number and confirm it using the code."
+  },
+  "step_two": {
+    "title": "Add your packages",
+    "description": "Add your packages by providing the necessary information such as weight, images, and shipping addresses of origin and destination."
+  },
+  "step_three": {
+    "title": "Find the best deals",
+    "description": "Wait to receive competitive offers from our partner carriers or explore the available deals."
+  },
+  "step_four": {
+    "title": "Negotiate the prices",
+    "description": "Negotiate the prices directly from our application."
+  },
+  "step_five": {
+    "title": "Hand over your package with confidence",
+    "description": "Meet the carrier in person to hand over your package with peace of mind. Our application offers a unique confirmation code system: simply scan the carrier's code to confirm the delivery of your package."
+  }
+}

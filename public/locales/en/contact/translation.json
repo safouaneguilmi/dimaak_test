@@ -1,0 +1,10 @@
+{
+  "title": "Let's talk about the future",
+  "text": "We are here to answer all of your questions.",
+  "form": {
+    "email": "Email",
+    "message": "Your Message",
+    "button": "Send",
+    "error_msg": "Invalid email address."
+  }
+}

@@ -1,0 +1,42 @@
+.accordion {
+  grid-column: full-start / full-end;
+  clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+  padding: 12rem 18rem 15rem 18rem;
+  background-image: linear-gradient(
+    to right,
+    rgba($main--color, 0.9),
+    rgba($main--color, 0.5)
+  );
+  @media screen and (max-width: $bp--md) {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    padding: 12rem 10rem 15rem 10rem;
+  }
+  &__qst {
+    padding: 2rem 0;
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  &__title {
+    font-size: 2rem;
+    font-family: $native--font;
+    font-weight: 500;
+  }
+  &__text {
+    font-size: 1.4rem;
+  }
+  & h2 {
+    font-size: 7rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+  }
+
+  &[data-language="ar"] {
+    clip-path: polygon(0 0, 100% 18%, 100% 100%, 0 100%);
+
+
+    @media screen and (max-width: $bp--md) {
+      clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    }
+  }
+}

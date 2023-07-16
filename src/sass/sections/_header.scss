@@ -1,0 +1,141 @@
+.header {
+  grid-column: full-start / full-end;
+  background-color: darken($main--color, 8%);
+  display: flex;
+  // justify-content: space-between;
+  height: 6rem;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo-container {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+  }
+
+  //for arabic
+  &__logo-container[data-language="ar"] {
+    .header__logo {
+      margin-left: 0;
+      margin-right: 4rem;
+    }
+  }
+
+  &__logo {
+    height: 6rem;
+    margin-left: 4rem;
+  }
+  &__logo-text {
+    font-family: $main--font;
+    color: white;
+    font-size: 1.7rem;
+    font-variant: small-caps;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+  }
+  //for arabic
+  &__list[data-language="ar"] {
+    column-gap: 0.5rem;
+    .header__language {
+      margin-left: 3.5rem;
+    }
+  }
+  &__link {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    &:hover::before {
+      width: 100%;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -0.2rem;
+      left: 0.1rem;
+      border-bottom: solid 2px white;
+      width: 0rem;
+      transition: all 0.4s;
+    }
+  }
+  &__language {
+    position: relative;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    align-items: center;
+    padding: 0.7rem 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    width: 6.5rem;
+    background-color: lighten($main--color, 40%);
+    color: rgba(0, 0, 0, 0.774);
+    transition: all 0.3s;
+
+    &__language--clicked {
+      border-radius: 1rem 1rem 0 0;
+    }
+
+    &-list {
+      position: absolute;
+      list-style: none;
+      top: 2.3rem;
+      width: 100%;
+      background-color: lighten($main--color, 40%);
+      z-index: 100;
+      opacity: 0;
+      height: 0;
+      transition: all 0.3s;
+      visibility: hidden;
+      @media screen and (max-width: $bp--md) {
+        top: 3.5rem;
+      }
+    }
+    &-list--show {
+      visibility: visible;
+      height: 11rem;
+      opacity: 1;
+    }
+    &-list--hide {
+      visibility: hidden;
+      height: 0;
+      opacity: 0;
+    }
+    &-item {
+      padding: 0.5rem;
+      border-bottom: solid $main--color 1px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      justify-content: center;
+      font-family: $native--font;
+      font-variant: small-caps;
+      font-weight: 600;
+      font-size: 1.5rem;
+      transition: all 0.3s;
+      opacity: 0.4;
+
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+      &:hover {
+        opacity: 1;
+      }
+    }
+    &-item--active {
+      opacity: 1;
+    }
+  }
+}

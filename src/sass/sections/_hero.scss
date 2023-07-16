@@ -1,0 +1,121 @@
+.hero {
+  margin-bottom: 8rem;
+  padding: 4rem 0;
+  grid-column: full-start / full-end;
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(6rem, 1fr)
+    [center-start] repeat(8, [col-start] minmax(min-content, 12rem) [col-end])
+    [center-end] minmax(6rem, 1fr)
+    [full-end];
+  background-image: linear-gradient(
+      to right,
+      rgba($main--color, 1),
+      rgba($main--color, 0.5)
+    ),
+    url(../assets/hero--bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0 100%);
+  @media screen and (max-width: $bp--large) {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0 100%);
+  }
+  @media screen and (max-width: $bp--md) {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0 100%);
+  }
+  @media screen and (max-width: $bp--sm) {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0 94%);
+  }
+  //for arabic
+  &[data-language="ar"]{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 85%);
+    @media screen and (max-width: $bp--large) {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 96%, 0 90%);
+    }
+    .hero__img{
+      translate: .5rem -1rem;
+    }
+  }
+  &__title {
+    color: rgb(255, 255, 255);
+    font-size: 4.5rem;
+    word-spacing: 0.1rem;
+    @media screen and (max-width: $bp--md) {
+      width: 85%;
+      margin-inline: auto;
+    }
+    @media screen and (max-width: $bp--sm) {
+      width: 100%;
+      font-size: 3.9rem;
+    }
+    @media screen and (max-width: $bp--esm) {
+      font-size: 4.5rem;
+    }
+  }
+  
+  &__text {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 2rem 0 1.5rem 0;
+  }
+  &__btn,
+  &__btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    padding: 0.8rem 1.8rem;
+    border-radius: 2rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: darken($main--color, 8%);
+      border: solid 2px darken($main--color, 12%);
+    }
+  }
+  &__img-container {
+    
+    position: relative;
+    margin-top: 4rem;
+
+    &::before {
+      content: "";
+      width: 95%;
+      height: 80%;
+      position: absolute;
+      top: 10.5rem;
+      left: 1.9rem;
+
+      background-color: darken($main--color, 20%);
+      border-radius: 50%;
+      z-index: -1;
+    }
+  }
+  &__img {
+    width: 88%;
+    object-fit: cover;
+    translate: 1rem -3.5rem;
+  }
+}
+
+.hero-text {
+  grid-column: full-start / col-end 4;
+  @media screen and (max-width: $bp--md) {
+    grid-column: full-start / full-end;
+    padding: 2rem 10rem 0 10rem;
+    text-align: center;
+  }
+  padding: 10rem;
+}
+.hero-img {
+  grid-column: col-start 5 / full-end;
+  @media screen and (max-width: $bp--md) {
+    grid-column: full-start / full-end;
+  }
+  display: grid;
+  justify-content: center;
+}

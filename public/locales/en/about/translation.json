@@ -1,0 +1,24 @@
+{
+  "about": {
+    "title": "A unique delivery experience",
+    "logo_text": "Dim3ak",
+    "para_one": {
+      "title": "Earn money opportunity:",
+      "text": " Offering travelers the opportunity to earn extra money by providing delivery services during their journeys. They can leverage their existing trips to make deliveries and get compensated accordingly."
+    },
+    "para_two": {
+      "title": "Convenient and cost-effective delivery:",
+      "text": {
+        "one": " Users of ",
+        "two": "can benefit from a convenient and cost-effective delivery service for their packages. They can ship their items at a lower cost by connecting with travelers who are already heading to the desired destination."
+      }
+    },
+    "para_three": {
+      "title": "Fast delivery: ",
+      "text": {
+        "one": "By using",
+        "two": "Users can enjoy faster delivery compared to traditional shipping methods. They can find travelers heading quickly to the desired destination, thereby reducing shipping time."
+      }
+    }
+  }
+}

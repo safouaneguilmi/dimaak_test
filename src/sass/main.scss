@@ -1,0 +1,17 @@
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+@import "./base/base";
+@import "./base/utilities";
+
+@import "./layout/page";
+
+@import "./sections/header";
+@import "./sections/hero.scss";
+@import "./sections/services";
+@import "./sections/about";
+@import "./sections/howToUse";
+@import "./sections/accordion";
+@import "./sections/footer";
+@import "./sections/popup";
+@import "./sections/contact";

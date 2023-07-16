@@ -1,0 +1,22 @@
+{ "title":"Une utilisation facile, expérience sans tracas",
+  "step_one": {
+    "title": "Téléchargez Dim3ak",
+    "description": "Saisissez votre numéro de téléphone et confirmez-le à l'aide du code"
+  },
+  "step_two": {
+    "title": "Ajoutez vos colis",
+    "description": "ajouter vos colis en fournissant les informations nécessaires telles que le poids, des images et les adresses d'expédition et de destination."
+  },
+  "step_three": {
+    "title": "Trouvez les meilleures offres",
+    "description": "Attendez de recevoir des offres compétitives de nos transporteurs partenaires ou explorez les offres disponibles."
+  },
+  "step_four": {
+    "title": "Négociez les tarifs",
+    "description": "Négociez les prix directement depuis notre application."
+  },
+  "step_five": {
+    "title": "Remettez votre colis en toute confiance",
+    "description": "Rencontrez personnellement le transporteur pour remettre votre colis en toute sérénité. Notre application propose un système de codes de confirmation uniques : scannez simplement le code du transporteur pour confirmer la remise de votre colis."
+  }
+}
