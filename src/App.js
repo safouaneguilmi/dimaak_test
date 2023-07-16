@@ -54,7 +54,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/"
+            path="/dimaak_test"
             element={
               <div className="home">
                 <div className="hero" data-language={language}>
