@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dimaak_test/static/css/main.1d5f9545.css",
-    "main.js": "/dimaak_test/static/js/main.40d662d0.js",
+    "main.js": "/dimaak_test/static/js/main.58a6020a.js",
     "static/media/hero--bg.png": "/dimaak_test/static/media/hero--bg.fc0ef9ceed7ee6469e13.png",
     "static/media/step--4.png": "/dimaak_test/static/media/step--4.9d028bd7d72bf9bc9ee1.png",
     "static/media/step--5.png": "/dimaak_test/static/media/step--5.c8b3f1aeacf2a6841f19.png",
@@ -285,10 +285,10 @@
     "static/media/bd.svg": "/dimaak_test/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "static/media/id.svg": "/dimaak_test/static/media/id.f624e2c8444a7794b357.svg",
     "main.1d5f9545.css.map": "/dimaak_test/static/css/main.1d5f9545.css.map",
-    "main.40d662d0.js.map": "/dimaak_test/static/js/main.40d662d0.js.map"
+    "main.58a6020a.js.map": "/dimaak_test/static/js/main.58a6020a.js.map"
   },
   "entrypoints": [
     "static/css/main.1d5f9545.css",
-    "static/js/main.40d662d0.js"
+    "static/js/main.58a6020a.js"
   ]
 }
