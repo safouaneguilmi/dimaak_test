@@ -1,0 +1,20 @@
+{
+  "cards": {
+    "card_one": {
+      "title": "Reliability",
+      "text": "Assure users that every traveler is carefully verified and rated to ensure secure transactions."
+    },
+    "card_two": {
+      "title": "Savings",
+      "text": "Enable senders to save on traditional shipping fees by leveraging the pre-planned trips of travelers."
+    },
+    "card_three": {
+      "title": "Traceability",
+      "text": "Enable users to track their packages at every stage of the journey."
+    },
+    "card_four": {
+      "title": "Flexibility",
+      "text": "Travelers can offer their trips and indicate the destinations they are heading to, providing senders with a diverse range of delivery options."
+    }
+  }
+}

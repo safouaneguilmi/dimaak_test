@@ -1,0 +1,10 @@
+{
+  "title": "Parlons du futur ensemble !",
+  "text": "Nous sommes là pour répondre à toutes vos questions.",
+  "form":{
+    "email":"Email",
+    "message":"Votre Message",
+    "button":"Envoyer",
+    "error_msg":"Adresse e-mail invalide"
+  }
+}

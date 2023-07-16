@@ -1,0 +1,20 @@
+{
+  "cards":{
+    "card_one":{
+      "title":"Fiabilité",
+      "text": "Assurez aux utilisateurs que chaque voyageur est soigneusement vérifié et évalué pour garantir des transactions sécurisées."
+    },
+    "card_two":{
+      "title":"Économie",
+      "text": "Permettre aux expéditeurs d'économiser sur les frais d'expédition traditionnels, en tirant parti des voyages déjà prévus par les voyageurs."
+    },
+    "card_three":{
+      "title":"Traçabilité",
+      "text": "Permettre aux utilisateurs de suivre leurs colis à chaque étape du trajet."
+    },
+    "card_four":{
+      "title":"Flexibilité",
+      "text": "Les voyageurs peuvent proposer leurs trajets et indiquer les destinations auxquelles ils se rendent, offrant ainsi aux expéditeurs une gamme variée d'options de livraison."
+    }
+  }
+}

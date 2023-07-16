@@ -1,0 +1,24 @@
+{
+  "about": {
+    "title": "Une expérience de livraison unique",
+    "logo_text": "Dim3ak",
+    "para_one": {
+      "title": "Opportunité de gagner de l'argent :",
+      "text": " offre aux voyageurs la possibilité de gagner de l'argent supplémentaire en proposant leurs services de livraison lors de leurs voyages. Ils peuvent tirer parti de leurs trajets existants pour effectuer des livraisons et être rémunérés en conséquence."
+    },
+    "para_two": {
+      "title": "Livraison pratique et économique :",
+      "text": {
+        "one": " Les utilisateurs de  ",
+        "two": "peuvent bénéficier d'un service de livraison pratique et économique pour leurs colis. Ils peuvent expédier leurs articles à moindre coût en se connectant avec des voyageurs qui se rendent déjà à la destination souhaitée. en conséquence."
+      }
+    },
+    "para_three": {
+      "title": "Rapidité de livraison : ",
+      "text": {
+        "one": "En utilisant, ",
+        "two":"les utilisateurs peuvent profiter d'une livraison plus rapide par rapport aux méthodes traditionnelles d'expédition. Ils peuvent trouver des voyageurs se rendant rapidement à la destination souhaitée, réduisant ainsi les délais d'expédition."
+      }
+    }
+  }
+}
