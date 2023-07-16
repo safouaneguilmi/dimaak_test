@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
 
 //break points
 
@@ -26,13 +26,13 @@ html {
     font-size: 50%;
   }
   @media screen and (max-width: $bp--md) {
-    font-size: 46%;
+    font-size: 48%;
   }
   @media screen and (max-width: $bp--sm) {
-    font-size: 43%;
+    font-size: 47%;
   }
   @media screen and (max-width: $bp--esm) {
-    font-size: 30%;
+    font-size: 37%;
   }
 }
 body {
