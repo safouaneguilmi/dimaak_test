@@ -9,7 +9,7 @@ export default function Header(props) {
   return (
     <div className="header">
       <div className="header__logo-container" data-language={props.language}>
-        <Link to="/">
+        <Link to="/dimaak_test">
           <img src={image} alt="logo" className="header__logo" />
         </Link>
         <h4 className="header__logo-text">Dim3ak</h4>
